@@ -4,6 +4,7 @@
 
 body {
     font-family: sans-serif;
+    text-emphasis-color: white;
     margin: 0;
 }
 
@@ -11,29 +12,25 @@ body {
     display: flex;
     justify-content: space-evenly;
     padding: 10px;
-    background-color: lightblue;
-    color: #fff;
 }
 
 .banner {
     display:flex;
     flex-flow: column wrap;
     align-items: center;
-    background-color:cadetblue;
 }
 
 .profile {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    background-color: darkturquoise;
-
 }
 
 .biography {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
+
 }
 
 .project_grid {
@@ -48,6 +45,12 @@ body {
     justify-content: center;
     align-items: center;
 }
-.contact {
 
+.contact {
+}
+
+.socials {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
 }
