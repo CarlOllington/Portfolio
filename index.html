@@ -1,15 +1,26 @@
 <!DOCTYPE html>
+<!--the xmlns attribute is pretty old-school and not really used any more-->
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
     <title>Carl Ollington</title>
+<!--    I didn't show you this, but it's useful to link this normalize.css to reset-->
+<!--    all the different browser's defaults to be the same and give you a blank slate-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+          integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!--    It's usually best to link your css at the bottom, after everything else-->
     <link rel="stylesheet" href="PortoStyles.css">
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel='stylesheet'>
 </head>
 <body>
+<!--There's also a special <nav> tag that you can use for nav bars,-->
+<!--    it acts just like a div or section-->
     <section id="navigation">
         <div class="navigation">
+<!--            There's no need to give these classes if you select them-->
+<!--            with ".navigation a" in the css-->
             <a class="navbutton" href="#profile">About me</a>
             <a class="navbutton" href="#portfolio">Portfolio</a>
             <a class="navbutton" href="#contact">Contact Me</a>
@@ -98,6 +109,7 @@
     <section id="contact">
         <div class="socials">
             <a class="linkedin" href="https://www.linkedin.com/in/carlollington">
+<!--                Better to use icon fonts from boxicons for these icons-->
                 <img alt="LinkedIn" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAV1JREFUaEPtWVsOAiEM7J5MPZl6MvVkupPQZIMtC2tDIZYffjbQ6UwfWxaafC2T208BwJvBYGBkBs5EdCUi7J7rSUT31Q7sX6skoccAxrPBMP7SCuDt6fZaZ5cYCADGDIrOPsIAAuqWjMOOQO+xTABsjWeje4EwAaAx1iNeAgAkg1ycF5SpJAQQ2zhAlUbB67FMJNTDUO2OAADPQP8vwUXbWgCJ5euU+ipuzPgsSJCbxb16YsKAFMR5HEgXIU4AnAugJJO9ZOAKACDFdjhDUgLhCqAl+LWiOAyAPTa0/xB3ALk8pL4KTGkycgWgFTzJqJZvi3MhSYtHs5Dm1ZrzOH5cGZgegBaY0zAQANYu2DUGgoFgICXjmqyhdaPSjLXmvCHqwDAxIE2JeYrNnpKGsNqUu+Y8UwZa2mLrb03SqLVRLef9H4DpHzimf2Jq0afbt/HM6ub6dHEwEAz86IEPNMOKMSsOYKkAAAAASUVORK5CYII="/>
             </a>
             <a class="github" href="https://github.com/CarlOllington">
