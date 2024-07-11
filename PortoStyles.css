@@ -4,33 +4,61 @@
 
 body {
     font-family: sans-serif;
-    text-emphasis-color: white;
+    color: white;
+    background-color: black;
     margin: 0;
+    border: ghostwhite solid;
+}
+
+#navigation{
+    border-bottom-color:ghostwhite;
+    border: solid;
 }
 
 .navigation {
     display: flex;
     justify-content: space-evenly;
     padding: 10px;
+    text-decoration: none;
+}
+
+.navbutton{
+    color: white;
+    text-decoration: none;
+
+}
+
+#welcome{
 }
 
 .banner {
     display:flex;
-    flex-flow: column wrap;
+    justify-content: center;
+}
+
+#profile{
+}
+
+.biography{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skills {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-evenly;
     align-items: center;
+    height: 100vh;
+    width: 100vw;
 }
 
-.profile {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
+#portfolio{
 }
 
-.biography {
+.title{
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-
+    justify-content: center;
 }
 
 .project_grid {
@@ -46,7 +74,7 @@ body {
     align-items: center;
 }
 
-.contact {
+#contact {background:white;
 }
 
 .socials {
