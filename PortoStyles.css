@@ -1,3 +1,9 @@
+/*General notes:*/
+/*- very good overall! Especially impressive given how little time you had*/
+/*- the convention is usually to start all file names as lower case*/
+/*-To avoid creating classes everywhere, you can nest selectors like ".className a"*/
+/*Try to favour using classes instead of ids: most devs just use classes even for single things*/
+
 * {
     box-sizing: border-box;
 }
@@ -22,23 +28,30 @@ body {
     text-decoration: none;
 }
 
+/*As I mentioned in the HTML, you can just use:*/
+/*.navbutton a*/
 .navbutton{
     color: white;
     text-decoration: none;
 
 }
 
+/*Delete this if it isn't used*/
 #welcome{
 }
 
 .banner {
+    /*Be consistent with putting spaces after the colons*/
     display:flex;
     justify-content: center;
 }
 
+/*Remove if no styling is added*/
 #profile{
 }
 
+/*Also be consistent with putting spaces before the
+opening curly bracket*/
 .biography{
     display: flex;
     justify-content: space-evenly;
@@ -53,6 +66,7 @@ body {
     width: 100vw;
 }
 
+/*Remove if no styling is added*/
 #portfolio{
 }
 
@@ -74,6 +88,7 @@ body {
     align-items: center;
 }
 
+/*Put the first rule on a new line*/
 #contact {background:white;
 }
 
