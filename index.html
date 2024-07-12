@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
@@ -8,95 +8,120 @@
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel='stylesheet'>
 </head>
 <body>
-    <section id="navigation">
-        <div class="navigation">
-            <a class="navbutton" href="#profile">About me</a>
-            <a class="navbutton" href="#portfolio">Portfolio</a>
-            <a class="navbutton" href="#contact">Contact Me</a>
-        </div>
-
+    <section id="nav">
+        <nav class="navigation">
+            <a class="nav-button" href="#about">About me</a>
+            <a class="nav-button" href="#timeline">Portfolio</a>
+            <a class="nav-button" href="#contact">Contact Me</a>
+        </nav>
     </section>
-    <section id=welcome>
+    <section>
         <div class="banner">
             <div>
-                <h1>Carl Ollington</h1>
+                <img src="https://github.com/CarlOllington/Portfolio/blob/main/20230425_164005.jpg?raw=true" class="headshot" alt="Carl's Headshot">
+            </div>
+            <article class="hero">
+                <h1 style="opacity: 1;">Carl Ollington</h1>
                 <p>Full-stack Developer</p>
-            </div>
+            </article>
         </div>
     </section>
-
-    <section id="profile">
-        <div class="profile">
-            <div class="biography">
-                <img src="" class="profilephoto" alt="Carl's Headshot">
-                <p> Nonsense about me </p>
-            </div>
-            <div class="skills">
-                <article>
-                    <h3>Languages</h3>
+    <section id=about class="profile">
+        <article class="biography">
+            <header>
+                <h2>About Me</h2>
+            </header>
+            <hr>
+            <p> Hi, I’m Carl. IO student and aspiring full-stack developer looking to build on over a decade in business.</p>
+            <p> Based in Bath and South West Region, if not working you'll find me running in the Welsh hills, discovering new coffee spots or enjoying a good board-game with friends!</p>
+        </article>
+        <article class="biography">
+            <header>
+                <h2>Languages</h2>
+            </header>
+            <hr>
+            <ul>
+                <li>CSS</li>
+                <li>HTML</li>
+                <li>JavaScript</li>
+                <li>PHP</li>
+                <li>M</li>
+                <li>Node.js</li>
+            </ul>
+        </article>
+        <article class="biography">
+            <header>
+                <h2>Methodologies</h2>
+            </header>
+            <hr>
+            <ul>
+                <li>Agile</li>
+                <li>Lean Six Sigma</li>
+                <li>SOLID</li>
+            </ul>
+        </article>
+        <article class="biography">
+            <header>
+                <h2>Platforms</h2>
+            </header>
+            <hr>
+            <ul>
+                <li>Microsoft 365</li>
+                <li>ServiceNow</li>
+                <li>SAP</li>
+                <li>React</li>
+            </ul>
+        </article>
+    </section>
+    <section id="timeline">
+        <div>
+            <h1 class="hero" >Upcoming Projects</h1>
+        </div>
+        <div class="timeline">
+            <div class="container left">
+                <div class="content">
+                    <h2>Portfolio</h2>
                     <ul>
-                        <li>CSS</li>
                         <li>HTML</li>
-                        <li>M</li>
+                        <li>CSS</li>
+                        <li>GitHub</li>
                     </ul>
-                </article>
-                <article>
-                    <h3>Platforms</h3>
-                    <ul>
-                        <li>Microsoft 365</li>
-                        <li>ServiceNow</li>
-                        <li>SAP</li>
-                    </ul>
-                </article>
-                <article>
-                    <h3>Methodologies</h3>
-                    <ul>
-                        <li>Agile</li>
-                        <li>Lean Six Sigma</li>
-                        <li>Javascript</li>
-                    </ul>
-                </article>
+                </div>
+            </div>
+            <div class="container right">
+                <div class="content">
+                    <h2>Collectors App</h2>
+                </div>
+            </div>
+            <div class="container left">
+                <div class="content">
+                    <h2>Game Build</h2>
+                </div>
+            </div>
+            <div class="container right">
+                <div class="content">
+                    <h2>React Project</h2>
+                </div>
+            </div>
+            <div class="container left">
+                <div class="content">
+                    <h2>OOP API</h2>
+                </div>
+            </div>
+            <div class="container right">
+                <div class="content">
+                    <h2>Academy Application Portal</h2>
+                </div>
+            </div>
+            <div class="container right">
+                <div class="content">
+                    <h2>Showcase Project</h2>
+                </div>
             </div>
         </div>
     </section>
-
-    <section id="portfolio">
-        <div class="title">
-            <h1> Projects </h1>
-        </div>
-        <div class="project_grid">
-            <div class="project">
-                <article>
-                    <h2> Project 1 </h2>
-                    <p>
-                        Summary Description of Portfolio Project
-                    </p>
-                    <img src="https://placedog.net/501" alt="Placeholder 1">
-                </article>
-            </div>
-            <div class="project">
-                <article>
-                    <h2>Project 2</h2>
-                    <p>
-                        Summary Description of Portfolio Project
-                    </p>
-                    <img src="https://placedog.net/502" alt="Placeholder 2">
-                </article>
-            </div>
-            <div class="Project">
-                <article>
-                    <h2>Project 3</h2>
-                    <p>
-                        Summary Description of Portfolio Project
-                    </p>
-                    <img src="https://placedog.net/503" alt="Placeholder 3">
-                </article>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact">
-        <div class="socials">
+</body>
+    <nav id=contact class="socials">
             <a class="linkedin" href="https://www.linkedin.com/in/carlollington">
                 <img alt="LinkedIn" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAV1JREFUaEPtWVsOAiEM7J5MPZl6MvVkupPQZIMtC2tDIZYffjbQ6UwfWxaafC2T208BwJvBYGBkBs5EdCUi7J7rSUT31Q7sX6skoccAxrPBMP7SCuDt6fZaZ5cYCADGDIrOPsIAAuqWjMOOQO+xTABsjWeje4EwAaAx1iNeAgAkg1ycF5SpJAQQ2zhAlUbB67FMJNTDUO2OAADPQP8vwUXbWgCJ5euU+ipuzPgsSJCbxb16YsKAFMR5HEgXIU4AnAugJJO9ZOAKACDFdjhDUgLhCqAl+LWiOAyAPTa0/xB3ALk8pL4KTGkycgWgFTzJqJZvi3MhSYtHs5Dm1ZrzOH5cGZgegBaY0zAQANYu2DUGgoFgICXjmqyhdaPSjLXmvCHqwDAxIE2JeYrNnpKGsNqUu+Y8UwZa2mLrb03SqLVRLef9H4DpHzimf2Jq0afbt/HM6ub6dHEwEAz86IEPNMOKMSsOYKkAAAAASUVORK5CYII="/>
             </a>
@@ -106,10 +131,8 @@
             <a class="Email" href="mailto:Carl.Ollington@outlook.com?subject=Let's Connect">
                 <img alt="Email" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAVlJREFUaEPtmUESwjAIRenN9GTqyfRmWhZxYiSQBkjTDtk4Y03Kfx+aYBc4+FgOHj+EgL0dDAfCASWB06bQBQBuAICfM4zHGsSdCqTmwHuGqIkYrivUV/49JQCVIv0ZBwaPIr6DEjAr/RT0T8yzC0DiZR1uFoAT9kirVLhlRnQJQPtGiUDqGHwqVjMBKQc9hVCPS3MBHm6U1PMHjVpAdRMxSitufSzgZ/E831wDON9DBEedc7lLQIJgJUSizh1jVAK0bvRSr26+mo1sqxsa6i4CWt2woO4moKU2aofC3iO7ugZqAXEpUs7RbIZuAlrc6KXunkIlYcoNDfXhAnI3sIgt21P3FPLu5EKAN2Fp/XBAIuR9PRzwJiytHw5IhLyviw5gDzrLn7riEYVqaKhG2ptq6/p/8XLvB6wOX63Bcb+rNkWnfcFhQW3IGuHAEMzMTcKBcEBJ4PAp9AGloFoxlr+6BgAAAABJRU5ErkJggg=="/>
             </a>
-            <a class="Home" href="#welcome">
+            <a class="Home" href="#nav">
                 <img alt="Home" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAUZJREFUaEPtllEOwjAMQ7ObwcmAk8HNgEibNI2usZdkaBB+JtE29bNDxiAH/wwH1y8F8O0EK4FKwOnAX7bQ02madZwyldo83lwARgSUqdTmX0nA6uFd17cksKtA67ICMBy6juvT0zKUXs9MQEVfRkW39zMFIgtgLn5yNQUiA6AlPg0iGqAnPgUiEgARHw4RBcCID4WIANgiPgzCC7AmXifONELnYpff6ZprOnkAeuJ1bfm3W++yzuz2IkOEtABUIHIWBtmSACpgDSAUggVAxavIHkAYBANwEpF7I9u1H6EF0IM4i8gD6SMGoHVhb4IgAGzNDyYWYH6hNf5QAKZmCIAW0XayImYA0JphAEh7sgBIzQJgXKoEELe2TCGkLvIiQ+t09xVAx576DSA9ltlCyP3uPQXgttBZoBJwGug+Xgm4LXQWOHwCL424RTGF/pxQAAAAAElFTkSuQmCC"/>
             </a>
-        </div>
-    </section>
-</body>
+    </nav>
 </html>
